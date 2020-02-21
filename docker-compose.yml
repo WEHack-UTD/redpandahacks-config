@@ -1,0 +1,8 @@
+version: "3.3"
+services: 
+  dashboard:
+    image: hackathon-dashboard:latest
+    volumes: 
+      - ~/dashboard:/usr/src/app
+    ports:
+      - 3000:3000
