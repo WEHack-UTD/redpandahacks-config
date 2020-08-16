@@ -6,10 +6,12 @@ git_source(:github) do |repo_name|
 end
 
 # Declares the version of ruby needed for this project
-ruby '~> 2.7.1'
+ruby '~> 2.5.7'
 
 # QR Code generating gem
 gem 'rqrcode'
+
+gem 'rake', '12.3.0'
 
 # Graphs and all that jazz for statistics
 gem 'chartkick'
@@ -33,8 +35,6 @@ gem 'bootstrap', '~> 4.3.1'
 # The devise gem helps us authenticate users securely
 gem 'devise', '~> 4.7.1'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.0'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
